@@ -1,0 +1,362 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+/* ---------------------------------first container----------------------------------------------------------- */
+.root-container {
+
+    background-image: radial-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), url("./IN-en-20231002-popsignuptwoweeks-perspective_alpha_website_medium.jpg");
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    border-bottom: 10px solid rgb(27, 27, 27);
+
+
+}
+
+.navbar {
+    display: flex;
+    height: 10vh;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 10px;
+
+
+
+
+    /* padding-left: vw;
+    padding-right: vw; */
+
+}
+
+.logo {
+    color: #e50914;
+    width: 12%;
+    height: 85%;
+
+
+}
+
+.navoption {
+    display: flex;
+    font-size: xx-large;
+    background-color: transparent;
+
+}
+
+.signin {
+    background-color: #e50914;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    color: white;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-left: 10px;
+
+}
+
+.maincontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 90vh;
+
+}
+
+.content {
+    width: 70%;
+    text-align: center;
+    color:
+        white;
+}
+
+.first-heading {
+    font-size: 3.2em;
+    margin-bottom: 14px;
+    line-height: 1.1;
+}
+
+.second-heading {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    margin-bottom: 30px;
+}
+
+.para {
+    font-size: 1.2em;
+
+}
+
+.email {
+    display: flex;
+    flex-direction: row;
+    line-height: 1.1;
+
+}
+
+.input {
+    width: 55%;
+    height: fit-content;
+    padding: 15px 10px;
+    width: 400px;
+    background-color: transparent;
+    color: white;
+    border-radius: 5px;
+    margin-top: 5px;
+    border: 1px solid white;
+    font-size: 15px;
+
+}
+
+.btn {
+    padding: 15px 15px;
+    background-color: #dd1822;
+    color: white;
+    border-radius: 5px;
+    margin-left: 10px;
+    font-size: larger;
+    margin-top: 5px;
+}
+
+/* ---------------------------second container---------------------------------------------------------------- */
+
+.second-root {
+    background-color: black;
+    padding: 50px 12%;
+    font-size: 22px;
+    border-bottom: 10px solid rgb(27, 27, 27);
+
+}
+
+.second-contain {
+    color: white;
+    display: flex;
+    /* justify-content: space-around; */
+    width: 100%;
+    align-items: center;
+    padding: 50px 0%;
+    flex: wrap;
+}
+
+.value {
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+
+/* h1{
+        line-height: 1px;
+        font-size: 10px;
+    } */
+.img-col {
+    flex-basis: 50px;
+    margin-bottom: 20px;
+}
+
+.img-col img {
+    display: block;
+    width: 500px;
+    margin: auto;
+}
+
+.second-root h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+/* ------------------------third container----------------------------------------------------------------------- */
+.third-root {
+    background-color: black;
+    padding: 50px 12%;
+    font-size: 22px;
+    border-bottom: 10px solid rgb(27, 27, 27);
+
+}
+
+.third-root h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+/* --------------------------------fourth container------------------------------------------------------------ */
+.fourth-root {
+    background-color: black;
+    padding: 50px 12%;
+    font-size: 22px;
+    border-bottom: 10px solid rgb(27, 27, 27);
+
+}
+
+.fourth-root h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+/* ---------------------------------fifth container------------------------------------------------------------ */
+.fifth-root {
+    background-color: black;
+    padding: 50px 12%;
+    font-size: 22px;
+    border-bottom: 10px solid rgb(27, 27, 27);
+
+}
+
+.fifth-root h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+
+}
+
+/* -----------------------------------sixth container----------------------------------------------------------- */
+.sixth-root {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    border-bottom: 10px solid rgb(27, 27, 27);
+
+}
+
+.third-content {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+h1 {
+    font-size: 50px;
+
+
+
+}
+
+.third-content p {
+    margin-top: 10px;
+    /* border: solid green;   */
+    width: 950px;
+    background-color: rgb(27, 27, 27);
+    padding: 20px;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.signup {
+
+    background-color: black;
+    display: flex;
+    justify-content: center;
+
+    /* border-bottom: 10px solid rgb(27, 27, 27); */
+
+
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+h3 {
+    margin-top: 10px;
+}
+
+.email2 {
+    background-color: transparent;
+    border-color: white;
+    margin-top: 25px;
+    height: 40%;
+    margin-right: 10px;
+    width: 400px;
+    font-size: 15px;
+    padding-left: 10px;
+
+
+}
+
+.sign {
+    background-color: red;
+    color: white;
+    border-radius: 7px;
+    height: 50%;
+    width: 30%;
+    font-size: small;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+/* -----------------------------seventh container------------------------------------------------------ */
+.sevent-root {
+    background-color: black;
+    color: gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+
+
+
+}
+
+.sevent-root .row {
+    display: flex;
+    justify-content: center;
+}
+
+.sevent-root h2 {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    margin-top: 25px;
+}
+
+.sevent-root .col {
+    flex-basis: 25%;
+    flex-grow: 1;
+    margin-bottom: 20px;
+    margin-left: 50px;
+
+}
+
+.sevent-root .col a {
+    display: block;
+    font-size: 15px;
+    margin-top: 15px;
+    color: gray;
+}
+
+.bt {
+    margin-left: 45px;
+
+
+}
+
+.op {
+    background-color: grey;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    height: fit-content;
+    background-color: transparent;
+    color: white;
+}
+
+h5 {
+    margin-left: 50px;
+    font-size: 15px;
+    margin-top: 5px;
+}
